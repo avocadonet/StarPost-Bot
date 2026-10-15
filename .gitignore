@@ -1,0 +1,19 @@
+# Секреты и конфигурация
+.env
+.env.*
+!.env.example
+
+# База данных
+*.db
+*.sqlite
+*.sqlite3
+
+# Python окружение и кэш
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.idea/
+.vscode/
